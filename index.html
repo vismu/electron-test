@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hello World!</title>
+	</head>
+	<body>
+		<script>
+			var versions = {
+				'node': process.version,
+				'electron': process.versions['electron'],
+				'chrome': process.versions['chrome']
+			};
+
+			document.write(`Node: ${versions.node} | Electron: ${versions.electron} | Chrome: ${versions.chrome}`);
+		</script>
+	</body>
+</html>
